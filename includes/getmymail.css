@@ -1,0 +1,21 @@
+body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+td {
+	font-size: 11px;
+}
+
+tr.header td {
+	font-weight: bold;
+}
+
+p.messageBody {
+	font-size: 10px;
+	margin-left: 25px;
+	padding: 2px;
+	float: left;
+	border: 1px solid silver;
+	white-space: pre;
+	display: block;
+}
