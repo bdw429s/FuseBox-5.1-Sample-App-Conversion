@@ -1,4 +1,4 @@
-component{
+component {
 	property name='sessionStorage' inject='coldbox:plugin:sessionStorage';
 	property name='mailService' inject='MailService';
 	
