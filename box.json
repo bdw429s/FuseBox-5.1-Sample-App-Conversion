@@ -1,0 +1,24 @@
+{
+    "dependencies":{
+        "coldbox":"4.1.0+00002"
+    },
+    "installPaths":{
+        "coldbox":"coldbox"
+    },
+        "repository":{
+        "type":"git",
+        "url":"https://github.com/bdw429s/FuseBox-5.1-Sample-App-Conversion"
+    },
+     // install directory where this package should be placed once installed, if not
+    // defined it then installs were the CommandBox command was executed.
+    "directory" : "",
+    // This boolean bit determines if the container directory will contain a sub-directory according to
+    // the package slug name, the default is true
+    "createPackageDirectory" : "false",
+    "contributors":[
+        "Brad Wood <bdw429s@gmail.com>",
+        "Curt Gratz <gratz@computerknowhow.com>"
+        "Jeff Davis <orcpac7@gmail.com>"
+    ],
+    "shortDescription":"Example of converting legacy app from Fusebox to Coldbox MVC"
+}
