@@ -1,0 +1,22 @@
+{
+    "shortDescription":"Example of converting legacy app from Fusebox to Coldbox MVC",
+    "dependencies":{
+        "coldbox":"4.1.0+00002",
+        "cbstorages":"1.0.0"
+    },
+    "installPaths":{
+        "coldbox":"coldbox",
+        "cbstorages":"modules\\cbstorages"
+    },
+    "packageVersion":"2.0.0",
+    "repository":{
+        "type":"git",
+        "url":"https://github.com/bdw429s/FuseBox-5.1-Sample-App-Conversion"
+    },
+    "createPackageDirectory":"false",
+    "contributors":[
+        "Brad Wood <bdw429s@gmail.com>",
+        "Curt Gratz <gratz@computerknowhow.com>",
+        "Jeff Davis <orcpac7@gmail.com>"
+    ]
+}

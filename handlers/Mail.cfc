@@ -1,5 +1,5 @@
 component {
-	property name='sessionStorage' inject='coldbox:plugin:sessionStorage';
+	property name='sessionStorage' inject='sessionStorage@cbstorages';
 	property name='mailService' inject='MailService';
 	
 	// Runs before every action

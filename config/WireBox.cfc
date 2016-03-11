@@ -5,9 +5,9 @@ component extends='coldbox.system.ioc.config.Binder' {
 		var CFMLEngine = new coldbox.system.core.util.CFMLEngine(); 
 		
 		// Railo uses a different script syntax
-		if( CFMLEngine.getEngine() == CFMLEngine.RAILO ) {
+		if( CFMLEngine.getEngine() != CFMLEngine.ADOBE ) {
 			// This will override the default MailService mappings
-			map( 'MailService' ).to( 'model.RailoMailService' );		
+			map( 'MailService' ).to( 'models.RailoMailService' );		
 		}
 		
 		// No "else" needed for Adobe CF. WireBox will simply "find" the 

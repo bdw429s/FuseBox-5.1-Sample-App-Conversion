@@ -8,3 +8,12 @@ Read more about this code and how it was created here:
 http://blog.coldbox.org/blog/converting-fusebox-51-sample-app-to-coldbox-mvc
 
 http://blog.coldbox.org/blog/converting-fusebox-51-sample-app-to-coldbox-mvc-part-2
+
+## Running the app
+
+To run this app, execute the following commands from CommandBox's interactive shell:
+
+```bash
+install bdw429s/FuseBox-5.1-Sample-App-Conversion
+server start
+```

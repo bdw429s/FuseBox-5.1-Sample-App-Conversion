@@ -7,7 +7,8 @@ component {
 			reinitPassword			= "",
 			defaultEvent			= "mail.home",
 			handlersIndexAutoReload	= true,
-			debugMode				= true
+			debugMode				= true,
+			customErrorTemplate		= '/coldbox/system/includes/BugReport.cfm'
 		};
 		
 		settings = {
