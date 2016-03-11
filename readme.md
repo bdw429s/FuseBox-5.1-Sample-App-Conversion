@@ -17,3 +17,7 @@ To run this app, execute the following commands from CommandBox's interactive sh
 install bdw429s/FuseBox-5.1-Sample-App-Conversion
 server start
 ```
+
+## History
+
+* 3/10/2016 Updated for ColdBox 4 and `box.json` dependencies.
